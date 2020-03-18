@@ -22,7 +22,6 @@ docs_dir: pages
 pages:
 
 # % protected region % [Customise your documentation nav as you see fit here] off begin
-
   - index.md
   - Site-Admin:
     - Users: 'admin/site-admin/users.md'
