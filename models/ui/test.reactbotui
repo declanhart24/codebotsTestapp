@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reactbotUi:UserInterfaceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reactbotUi="http://codebots.com/emf/reactbot/ui" TargetProject="test" />
+<reactbotUi:UserInterfaceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reactbotUi="http://codebots.com/emf/reactbot/ui" Uuid="2f609c5c-68b9-11ea-b94a-6d6f75736579" TargetProject="test">
+  <Pages xsi:type="reactbotUi:Page" Uuid="04cfa247-14f5-4602-8d20-57bc4bd9ced3" Name="index" Title="Index" Description="home page" IsHomePage="true"/>
+  <Tiles xsi:type="reactbotUi:TileCustom" Uuid="57780af5-57af-422d-f18e-12123697fca1" Name="index Wrapping Tile" IsDefaultTile="true">
+    <ViewElements xsi:type="reactbotUi:View" Uuid="9a29c46b-0486-42f5-b215-e29653993ba3" Name="index Wrapping View" DefaultView="true"/>
+  </Tiles>
+  <Tiles xsi:type="reactbotUi:TileCrud" Uuid="bc54bd29-8e0e-4121-9b1e-73a3c5d0e574" Name="Invoice Details">
+    <Entity href="../entity/test.csharpbotentity#dd65d7fc-5291-457a-9f32-573904b328bb"/>
+  </Tiles>
+  <ReferenceViewViewElements xsi:type="reactbotUi:ReferenceViewTile" Uuid="416e6e77-2342-4424-9237-f20d26d157c7" DisplayIndex="1" Source="9a29c46b-0486-42f5-b215-e29653993ba3" Target="bc54bd29-8e0e-4121-9b1e-73a3c5d0e574"/>
+  <ReferencePageTiles xsi:type="reactbotUi:ReferencePageTile" Uuid="623d11d8-2029-4fb4-88b8-e240adb595fd" Source="04cfa247-14f5-4602-8d20-57bc4bd9ced3" Target="57780af5-57af-422d-f18e-12123697fca1"/>
+</reactbotUi:UserInterfaceModel>

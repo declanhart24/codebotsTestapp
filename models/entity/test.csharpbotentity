@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<csharpbotEntity:EntityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csharpbotEntity="http://codebots.com/emf/csharpbot/entity" TargetProject="test" />
+<csharpbotEntity:EntityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csharpbotEntity="http://codebots.com/emf/csharpbot/entity" Uuid="2f5e1d92-68b9-11ea-85c1-6d6f75736579" TargetProject="test">
+  <Entities xsi:type="csharpbotEntity:Entity" Uuid="dd65d7fc-5291-457a-9f32-573904b328bb" Name="invoice" DocoDescription="Invoice Table" AvailableBy="SERVER">
+    <Attributes xsi:type="csharpbotEntity:AttributeInteger" Uuid="34b6c2c8-ba12-4ecc-9cf0-c2a502939735" Name="ID" Searchable="true" Unique="true">
+      <Validators xsi:type="csharpbotEntity:ValidatorRequired" Uuid="c4378034-8f6b-4267-923e-73e866c6e5f5"/>
+    </Attributes>
+    <Attributes xsi:type="csharpbotEntity:AttributeString" Uuid="e3e3e48e-d4e5-4875-b171-6bf275dd6b24" Name="InvoiceNumber" DocoDescription="invoice number" Searchable="true">
+      <Validators xsi:type="csharpbotEntity:ValidatorRequired" Uuid="c7b18e93-514b-4320-a697-22057f713da9"/>
+    </Attributes>
+    <Attributes xsi:type="csharpbotEntity:AttributeDecimal" Uuid="85618509-b5a5-42eb-b439-d6dcd775b4f9" Name="InvoiceTotal" DocoDescription="total of the invoice" AvailableBy="SERVER"/>
+  </Entities>
+</csharpbotEntity:EntityModel>
