@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <reactbotUi:UserInterfaceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reactbotUi="http://codebots.com/emf/reactbot/ui" Uuid="2f609c5c-68b9-11ea-b94a-6d6f75736579" TargetProject="test">
   <Pages xsi:type="reactbotUi:Page" Uuid="04cfa247-14f5-4602-8d20-57bc4bd9ced3" Name="index" Title="Index" Description="home page" IsHomePage="true"/>
-  <Tiles xsi:type="reactbotUi:TileCustom" Uuid="45c94205-1cdb-4036-e411-bb82f7d8493f" Name="index Wrapping Tile" IsDefaultTile="true">
-    <ViewElements xsi:type="reactbotUi:View" Uuid="9d584615-ba52-4980-95b8-b99b5fb13205" Name="index Wrapping View" DefaultView="true"/>
+  <Tiles xsi:type="reactbotUi:TileCustom" Uuid="388d4499-5a82-424f-e5c0-42feaa2e886a" Name="index Wrapping Tile" IsDefaultTile="true">
+    <ViewElements xsi:type="reactbotUi:View" Uuid="910c4061-9763-42f9-e31a-bf242606de57" Name="index Wrapping View" DefaultView="true"/>
   </Tiles>
   <Tiles xsi:type="reactbotUi:TileCrud" Uuid="bc54bd29-8e0e-4121-9b1e-73a3c5d0e574" Name="Invoice Details">
     <Entity href="../entity/test.csharpbotentity#dd65d7fc-5291-457a-9f32-573904b328bb"/>
   </Tiles>
-  <ReferenceViewViewElements xsi:type="reactbotUi:ReferenceViewTile" Uuid="d086783c-f96a-4c4e-85d2-f9ed36fe503e" DisplayIndex="1" Source="9d584615-ba52-4980-95b8-b99b5fb13205" Target="bc54bd29-8e0e-4121-9b1e-73a3c5d0e574"/>
-  <ReferencePageTiles xsi:type="reactbotUi:ReferencePageTile" Uuid="e286a0ea-6379-4102-bbd1-1aba8d9d9edc" Source="04cfa247-14f5-4602-8d20-57bc4bd9ced3" Target="45c94205-1cdb-4036-e411-bb82f7d8493f"/>
+  <ReferenceViewViewElements xsi:type="reactbotUi:ReferenceViewTile" Uuid="02bfccd0-eeb6-461d-bb55-098b9dd2de43" DisplayIndex="1" Source="910c4061-9763-42f9-e31a-bf242606de57" Target="bc54bd29-8e0e-4121-9b1e-73a3c5d0e574"/>
+  <ReferencePageTiles xsi:type="reactbotUi:ReferencePageTile" Uuid="15c9525e-3bc0-422f-8570-df44a3bb5f63" Source="04cfa247-14f5-4602-8d20-57bc4bd9ced3" Target="388d4499-5a82-424f-e5c0-42feaa2e886a"/>
 </reactbotUi:UserInterfaceModel>
